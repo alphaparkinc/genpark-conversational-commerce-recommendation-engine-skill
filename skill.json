@@ -1,0 +1,31 @@
+{
+  "name": "genpark-conversational-commerce-recommendation-engine-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Smart ingredient & price-optimized shopping recommendation agent.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "conversational-commerce",
+    "recommendation-engine",
+    "beauty-tech",
+    "ph-july25"
+  ],
+  "inputs": {
+    "user_profile": {
+      "type": "object"
+    },
+    "search_intent": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "ranked_products": {
+      "type": "array"
+    },
+    "personalized_advice": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
